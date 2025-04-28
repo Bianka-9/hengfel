@@ -1,10 +1,10 @@
 /*
 * File: app.js
-* Author: Kiss Pista
-* Copyright: 2025, Kiss Pista
+* Author: Nagy Bianka
+* Copyright: 2025, Nagy Bianka
 * Group: Szoft I-N
 * Date: 2025-04-21
-* Github: https://github.com/pista-kiss
+* Github: https://github.com/Bianka-9
 * Licenc: MIT
 */
 
