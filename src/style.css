@@ -1,0 +1,44 @@
+/*
+* File: style.css
+* Author: Nagy Bianka
+* Copyright: 2025, Nagy Bianka
+* Group: Szoft I-N
+* Date: 2025-04-23
+* Github: https://github.com/Bianka-9
+* Licenc: MIT
+*/
+
+/* #calcButton {
+    display: block;
+    margin: 20px auto 0 auto;
+} */
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+#introduction-para {
+    text-align: center;
+}
+
+.container {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#formula-image {
+    text-align: center;
+}
+
+.about {
+    background-color: rgba(170, 139, 233, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* #calcButton {
+    display: block;
+    margin: 0 auto;
+} */

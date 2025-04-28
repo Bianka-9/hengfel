@@ -1,0 +1,56 @@
+<!-- 
+* File: index.html
+* Author: Nagy Bianka
+* Copyright: 2025, Nagy Bianka
+* Group: Szoft I-N
+* Date: 2025-04-23
+* Github: https://github.com/Bianka-9
+* Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >Henger felszíne</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Henger felszíne</h1>
+    <p id="introduction-para">Kör alapú henger felszínének számítása</p>
+
+    <div class="mt-4" id="formula-image">
+      <img src="images/henger_felszin_keplete.png" alt="henger felszín" class="img-fluid mt-4">
+    </div>
+
+    <div class="card p-4 mt-3 shadow">
+      <label for="radius" class="form-label">Sugár (cm)</label>
+      <input type="number" id="radius" class="form-control">
+
+      <label for="height" class="form-label mt-2">Magasság (cm)</label>
+      <input type="number" id="height" class="form-control">
+
+      <button id="calcButton" class="btn btn-primary mt-3">Számít</button>
+
+      <label for="surface" class="form-label mt-3">Felszín (cm²)</label>
+      <input type="text" id="surface" class="form-control" readonly>
+
+      <button id="drawButton" class="btn btn-secondary mt-3">Ábrázol</button>
+      <canvas id="cylinderCanvas" width="600" height="400" class="mt-4 d-block mx-auto border border-dark"></canvas>
+
+    </div>
+
+
+
+    <div class="about mt-4">
+      Nagy Bianka, Szoft I-N, 2025.04.23.
+    </div>
+  </div>
+
+  <script src="bootstrap.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
