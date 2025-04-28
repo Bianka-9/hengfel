@@ -42,7 +42,7 @@ function drawCylinder(r, h, surface) {
     const height = h * scale;
 
     if (radius > canvas.width / 2 - 10 || height > canvas.height - 20) {
-        alert("Az ábra túl nagy ehhez a vászonhoz! Próbálj meg kisebb értékeket megadni.");
+        alert("Az ábra nem fér ki! Próbálj meg kisebb értékeket megadni.");
         return;
     }
 
@@ -83,5 +83,5 @@ function drawCylinder(r, h, surface) {
 
     ctx.fillStyle = "#444";
     ctx.font = "bold 14px sans-serif";
-    ctx.fillText(`F = ${surface.toFixed(2)} cm²`, canvas.width - 140, canvas.height - 10);
+    ctx.fillText(`A = ${surface.toFixed(2)} cm²`, canvas.width - 140, canvas.height - 10);
 }
